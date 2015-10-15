@@ -1,0 +1,74 @@
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+gems:
+  - jemoji
+  
+# Site settings
+title: "龙宇"
+description: > # this means to ignore newlines until "email:"
+   知鱼 - 子非鱼 安知鱼之乐
+
+email: leaeasy@gmail.com
+#blog logo
+logo: "/assets/images/df_logo.jpg"
+small_logo: "/assets/images/df_small_logo.jpg"
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+
+name: 'leaeasy'
+author: 'Li Longyu'
+author_image: "/assets/images/author.jpg"
+
+paginate:	5
+
+url: "http://leaeasy.github.io" # the base hostname & protocol for your site
+baseurl: ""
+#used to display weibo cards
+weibo_handle: '@leaeasy'
+
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+# social icons and sharing options
+social:
+  - icon:	weibo
+    url:	https://weibo.com/leaeasy
+    desc: Follow me on weibo
+    share_url: http://weibo.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:  twitter	
+#    url:	https://twitter.com/leaeasy
+#    desc: Follow me on twitter 
+#    share_url: http://twitter.com/share
+#    share_title: ?text=
+#    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+#  - icon:	github
+#    url:	https://github.com/leaeasy
+#    desc:	Fork me on github
+#    share_url:
+#    share_title:
+#    share_link:
+  
+  - icon:   linux
+    url:    http://www.zhihu.com/people/sisi0801   
+    desc:   Follow me on Zhihu
+    share-title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
