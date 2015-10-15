@@ -86,8 +86,7 @@ menuentry 'Deepin GNU/Linux 8.0 (jessie) GNU/Linux Stable' --class deepin --clas
 
  由于grub.cfg文件指定了root分区信息，我们也可以注释掉/etc/fstab中根分区挂载条目，否则也需要在挂载参数中添加subvolid字段
  
-4. 重启选择修改后的grub启动项进入系统
- 能够成功进入系统后，便可以将以前不在字卷中的文件夹及文件删除了。
+重启选择修改后的grub启动项进入系统，能够成功进入系统后，便可以将以前不在字卷中的文件夹及文件删除了。
  
 ## deepin系统在btrfs字卷的新玩法
 这里开始才是这篇教程真正要讲的内容。
