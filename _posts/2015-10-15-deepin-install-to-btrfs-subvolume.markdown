@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Deepin实战BTRFS子卷"
+title:  "Linux下的时间机器 -- Deepin实战BTRFS子卷"
 date:   2015-10-15 10:41:01
 categories: deepin system
 tags: deepin
 image: /assets/article_images/2015-10-15-btrfs-time-machine/header.jpg
 ---
-Btrfs 被称为是下一代 Linux 文件系统,目前btrfs已集成入内核开发主线。
-
 基于btrfs的子卷等特性，我们可以轻松实现系统快速恢复、类似与OSX的时间机器等有趣实用的功能。
+
+Btrfs 被称为是下一代 Linux 文件系统,目前btrfs已集成入内核开发主线。
 
 本教程将针对btrfs字卷及压缩进行一些系统功能实现。
 
